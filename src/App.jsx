@@ -9,6 +9,7 @@ import Nutrition from './assets/pages/nutrition'
 import Shop from './assets/pages/shop'
 import Login from './assets/pages/login'
 import Signup from './assets/pages/sign-up'
+import Footer from './assets/components/footer'
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
         </Routes>
       </main>
 
-
+      <Footer />
     </div>
   )
 }
