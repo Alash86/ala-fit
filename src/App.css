@@ -1,0 +1,9 @@
+.gymPic,
+.picDiv {
+    max-width: 100vw;
+
+}
+
+.gymPic {
+    max-width: 100%;
+}
