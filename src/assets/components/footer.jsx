@@ -1,8 +1,8 @@
 function Footer() {
-    return (<div className="container">
+    return (<div className="container ">
         <footer >
             <div className="row">
-                <div className="col-6 col-md-2 mb-3">
+                <div className="col-6 col-md-2 ">
                     <h5>Workouts</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
@@ -13,7 +13,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                <div className="col-6 col-md-2 mb-3">
+                <div className="col-6 col-md-2 ">
                     <h5>Nutrition</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
@@ -24,7 +24,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                <div className="col-6 col-md-2 mb-3">
+                <div className="col-6 col-md-2 ">
                     <h5>Shop</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
@@ -48,7 +48,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <div className="d-flex flex-column flex-sm-row justify-content-between py-2  border-top">
                 <p>© 2024 Shark Fit.  All rights reserved.</p>
                 <ul className="list-unstyled d-flex fs-5 ">
                     <li className="ms-3"><a className="link-body-emphasis" href="https://www.twitter.com/"><i className="bi bi-twitter-x "></i></a></li>

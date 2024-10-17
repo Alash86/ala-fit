@@ -10,7 +10,7 @@ import Shop from './assets/pages/shop'
 import Login from './assets/pages/login'
 import Signup from './assets/pages/sign-up'
 import Footer from './assets/components/footer'
-import Main from './assets/components/main'
+
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     <div className="app min-vh-100 d-flex flex-column ">
       <Header />
       <main className="flex-fill">
-        <Main />
+
         <Routes>
 
           <Route path='/' element={<Home />} />
